@@ -1,0 +1,179 @@
+*{
+    /* border: 2px solid red; */
+    padding: 0;
+    margin: 0;
+}
+.bar{
+background-color: black;
+}
+.logo{
+    margin-left: 10px;
+    padding-top: 0.5rem;
+}
+.firstPage{
+    width: 100%;
+    height: 100%;
+}
+.carousel2{
+    width:  100%;
+    height: 85vh;
+    margin-top: 0;
+    /* z-index: -10; */
+}
+.carousel{
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column;
+  /* padding-top: 0.25rem; */
+}
+.carousel1{
+    padding-top: 0.5rem;
+}
+.firstPageText1{
+color: #FFF;
+font-family: Montserrat;
+font-size: 3rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+position: absolute;
+left: 2rem;
+width: 40vw;
+top: 15rem;
+}
+.firstPageText2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 2rem;
+    top:23rem
+}
+.Rectangle{
+    width: 21.0625rem;
+height: 5.6875rem;
+flex-shrink: 0;
+border-radius: 0rem 12.3125rem 12.3125rem 0rem;
+background: #FFF;
+position: absolute;
+top: 28rem;
+left: 0rem;
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+}
+.Rectangle2{
+    width: 16.875rem;
+height: 3.625rem;
+flex-shrink: 0;
+border-radius: 4.5rem;
+background: #F00;
+box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+z-index: 10;
+position: absolute;
+left: 2rem;
+
+}
+.Rectangle2Text{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+margin-top: 0.25rem;
+}
+.firstPage{
+    height: 100vh;
+    position: relative;
+}
+.lastPage{
+    height: 100vh;
+    position: relative;
+}
+.lastPageDiv1{
+height: 38.5625rem;
+flex-shrink: 0;
+background: 
+  linear-gradient(0deg, rgba(0, 0, 0, 0.17) 0%, rgba(0, 0, 0, 0.17) 100%),
+  url(./Resources/Rectangle\ 97.png),
+  lightgray; /* Remove 50% and / cover no-repeat */
+background-size: cover; /* Add this to cover the whole area */
+background-repeat: no-repeat; /* Add this to prevent repetition */
+z-index: 1;
+/* width: 100vw; */
+}
+.footer{
+    width: 100%;
+height: 3rem;
+flex-shrink: 0;
+background: #000;
+display: flex;
+justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.footerImg{
+    width: 23rem;
+    color: #FFF;
+    font-family: Neutrons Demo;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    height: 2.7rem;
+}
+.box1{
+    z-index: 15;
+    background-image: url(./Resources/Rectangle\ 98\ \(1\).png);
+    width: 24.3125rem;
+height: 24.0625rem;
+flex-shrink: 0;
+position: absolute;
+top: 2rem;
+left: 10rem;
+display: flex;
+justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.box2{
+    z-index: 15;
+    background-image: url(./Resources/Rectangle\ 98\ \(1\).png);
+    width: 24.3125rem;
+height: 24.0625rem;
+flex-shrink: 0;
+    position: absolute;
+    bottom: 10rem;
+    right: 10rem;
+    display: flex;
+justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.box1Img1{
+position: absolute;
+top: 4rem;
+left: 3rem;
+}
+.box1 p,.box2 p{
+    width: 75%;
+    text-align: left;
+    color: #000;
+font-family: Montserrat;
+font-size: 1.2rem;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+}
+
+.readMore{
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    border-radius: 0.15275rem;
+    background-color: #F00;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    }
