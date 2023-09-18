@@ -1,0 +1,321 @@
+/* Reset default list styles and remove underlines from links */
+body{
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+   
+}
+nav li + li {
+    margin-left: 25px; /* Adjust the margin to control the gap */
+}
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between items */
+    
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Set link color */
+    font-weight: bold; /* Make text bold */
+    color: white;
+}
+
+/* Style link on hover */
+nav a:hover {
+    color: rgba(255, 206, 0, 1); /* Change link color on hover */
+}
+#header{
+    background-color: rgb(0, 0, 99);
+    height: 460px;
+    display: flex;
+}
+.vector{
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.navbar{
+    position: fixed;
+    background-color: rgb(0, 0, 99);
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.howItWorks{
+    background-color: white;
+    width: 538px;
+height: 98px;
+font-size: 80px;
+font-weight: 600;
+text-align: center;
+    margin-top: 2px;
+    margin-left: 470px;
+    justify-content: center; /* Center horizontally */
+}
+.works{
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.last{
+    width: 100%;
+}
+#lastImg{
+    width: 100%;
+    height: 100%;
+}
+.option{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    margin: 30px;
+}
+.select{
+    height: 84px;
+    color: orange;
+    font-size: 40px;
+    width: 222px;
+    text-align: center;
+    border: 6px solid rgb(0, 0, 99);
+    position: absolute;
+    left:107px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay{
+    height: 84px;
+    color: orange;
+    font-size: 40px;
+    width: 222px;
+    text-align: center;
+    border: 6px solid rgb(0, 0, 99);
+    position: absolute;
+    left:609px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enjoy{
+    height: 84px;
+    color: orange;
+    font-size: 40px;
+    width: 222px;
+    text-align: center;
+    border: 6px solid rgb(0, 0, 99);
+    position: absolute;
+    left:1106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin: 50px;
+    
+}
+.fig1{
+    width: 281px;
+    position: absolute;
+    left:76px;
+}
+.select:hover{
+    /* border: 6px solid rgb(0, 0, 99); */
+    border:6px solid blueviolet;
+}
+.pay:hover{
+    /* border: 6px solid rgb(0, 0, 99); */
+    border:6px solid blueviolet;
+}
+.enjoy:hover{
+    /* border: 6px solid rgb(0, 0, 99); */
+    border:6px solid blueviolet;
+}
+.fig2{
+    height: 493px;
+    width: 429px;
+    position: absolute;
+    left:524px;
+}
+.fig3{
+    height: 493px;
+    width: 305px;
+    position: absolute;
+    left:1065px;
+}
+.choose{
+    width: 100%;
+    margin-top: 600px;
+    margin-bottom: 2px;
+}
+.chooseText{
+    background-color: white;
+    width: 1160px;
+height: 130px;
+font-size: 80px;
+font-weight: 600;
+text-align: center;
+    margin-top: 2px;
+    margin-left: 160px;
+    justify-content: center; /* Center horizontally */
+    display: flex;
+}
+.orange{
+    color: orange;
+}
+.blue{
+    color: rgb(0, 0, 99);
+}
+.chooseImg{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.chooseImg1{
+    width: 100%;
+    height: 658px;
+    position: absolute;
+    left: 0%;
+}
+.choosePhoto1,.choosePhoto2{
+    width: 100%;
+    height: 658px;
+}
+.grp1{
+    position: absolute;
+    left: 118px;
+    /* top: 105%; */
+    z-index: 9;
+    margin-top: 200px;
+}
+.grp2{
+    position: absolute;
+    left: 623px;
+    margin-top: 200px;
+    z-index: 9;
+}
+.grp3{
+    position: absolute;
+    left: 1151px;
+    margin-top: 200px;
+    z-index: 9;
+}
+.grp4{
+    position: absolute;
+    left: 118px;
+    margin-top: 450px;
+    z-index: 9;
+}
+.grp5{
+    position: absolute;
+    left: 623px;
+    margin-top: 450px;
+    z-index: 9;
+}
+.grp6{
+    position: absolute;
+    left: 1151px;
+    margin-top: 450px;
+    z-index: 9;
+}
+.menu{
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: block;
+}
+.menuText{
+    background-color: white;
+    width: 1160px;
+height: 130px;
+font-size: 80px;
+font-weight: 600;
+text-align: center;
+    margin-top: 0px;
+    margin-left: 170px;
+    justify-content: center; /* Center horizontally */
+    display: flex;
+}
+.menuText2{
+    background-color: white;
+    width: 925px;
+height: 61px;
+font-size: 50px;
+font-weight: 400;
+text-align: center;
+    margin-top: 2px;
+    margin-left: 290px;
+    justify-content: center; /* Center horizontally */
+    display: flex;
+    margin-top: 50px;
+}
+.Grp1{
+    position: absolute;
+    left: 111px;
+    z-index: 9;
+    margin-top: 100px;
+}
+.Grp2{
+    position: absolute;
+    left: 383px;
+    z-index: 9;
+    margin-top: 100px;
+}
+.Grp3{
+    position: absolute;
+    left: 646px;
+    z-index: 9;
+    margin-top: 100px;
+}
+.Grp4{
+    position: absolute;
+    left: 912px;
+    z-index: 9;
+    margin-top: 100px;
+}
+.Grp5{
+    position: absolute;
+    left: 1176px;
+    z-index: 9;
+    margin-top: 100px;
+}
+.Grp6{
+    position: absolute;
+    left: 111px;
+    z-index: 9;
+    margin-top: 400px;
+}
+.Grp7{
+    position: absolute;
+    left: 383px;
+    z-index: 9;
+    margin-top: 400px;
+}
+.Grp8{
+    position: absolute;
+    left: 646px;
+    z-index: 9;
+    margin-top: 400px;
+}
+.Grp9{
+    position: absolute;
+    left: 912px;
+    z-index: 9;
+    margin-top: 400px;
+}
+.Grp10{
+    position: absolute;
+    left: 1176px;
+    z-index: 9;
+    margin-top: 400px;
+}
