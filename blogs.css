@@ -22,13 +22,25 @@ background-color: black;
 }
 .carousel{
     display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center; 
+  align-items: center; 
   flex-direction: column;
+  gap: 0.5rem;
   /* padding-top: 0.25rem; */
 }
 .carousel1{
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem;*/
+    display: flex; 
+    flex-direction: column;
+    position: absolute;
+    gap: 0.75rem;
+    top: 10rem;
+    /* background-color: aqua; */
+    left: 0;
+    width: 70vw;
+    height: 70vh;
+    
+    /* gap: 5rem; */
 }
 .firstPageText1{
 color: #FFF;
@@ -37,10 +49,8 @@ font-size: 3rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-position: absolute;
-left: 2rem;
-width: 40vw;
-top: 15rem;
+margin-left: 2rem;
+width: 60vw;
 }
 .firstPageText2{
     color: #FFF;
@@ -49,9 +59,7 @@ top: 15rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
-    left: 2rem;
-    top:23rem
+    margin-left: 2rem;
 }
 .Rectangle{
     width: 21.0625rem;
@@ -59,12 +67,11 @@ height: 5.6875rem;
 flex-shrink: 0;
 border-radius: 0rem 12.3125rem 12.3125rem 0rem;
 background: #FFF;
-position: absolute;
-top: 28rem;
-left: 0rem;
 display: flex;
 justify-content: center; /* Center horizontally */
 align-items: center; /* Center vertically */
+position: absolute;
+bottom: 2.5rem;
 }
 .Rectangle2{
     width: 16.875rem;
@@ -88,6 +95,17 @@ line-height: normal;
 text-align: center;
 margin-top: 0.25rem;
 }
+.readMore{
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    border-radius: 0.15275rem;
+    background-color: #F00;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    }
+
+
 .firstPage{
     height: 100vh;
     position: relative;
@@ -95,27 +113,36 @@ margin-top: 0.25rem;
 .lastPage{
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color: black;
 }
-.lastPageDiv1{
-height: 38.5625rem;
-flex-shrink: 0;
-background: 
-  linear-gradient(0deg, rgba(0, 0, 0, 0.17) 0%, rgba(0, 0, 0, 0.17) 100%),
-  url(./Resources/Rectangle\ 97.png),
-  lightgray; /* Remove 50% and / cover no-repeat */
-background-size: cover; /* Add this to cover the whole area */
-background-repeat: no-repeat; /* Add this to prevent repetition */
-z-index: 1;
-/* width: 100vw; */
+.lastPageDiv{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.lastPageImg{
+    margin: 0;
+    padding: 0;
+    height: 95vh;
+    width: 100vw;
+}
+.imageChange{
+    margin-bottom: 2rem;
 }
 .footer{
+    background-color: blue;
     width: 100%;
-height: 3rem;
+height: 7vh;
 flex-shrink: 0;
 background: #000;
 display: flex;
-justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+justify-content: center; 
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 .footerImg{
     width: 23rem;
@@ -129,12 +156,12 @@ justify-content: center; /* Center horizontally */
 .box1{
     z-index: 15;
     background-image: url(./Resources/Rectangle\ 98\ \(1\).png);
-    width: 24.3125rem;
+    width: 20rem;
 height: 24.0625rem;
 flex-shrink: 0;
 position: absolute;
 top: 2rem;
-left: 10rem;
+left: 6vw;
 display: flex;
 justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -142,12 +169,12 @@ justify-content: center; /* Center horizontally */
 .box2{
     z-index: 15;
     background-image: url(./Resources/Rectangle\ 98\ \(1\).png);
-    width: 24.3125rem;
+    width: 20rem;
 height: 24.0625rem;
 flex-shrink: 0;
     position: absolute;
-    bottom: 10rem;
-    right: 10rem;
+    bottom: 3.5rem;
+    right: 6vw;
     display: flex;
 justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -168,12 +195,3 @@ font-weight: 500;
 line-height: normal;
 }
 
-.readMore{
-    position: absolute;
-    bottom: 3rem;
-    right: 3rem;
-    border-radius: 0.15275rem;
-    background-color: #F00;
-    color: white;
-    padding: 0.25rem 0.75rem;
-    }
