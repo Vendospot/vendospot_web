@@ -38,7 +38,7 @@ background-color: black;
     /* background-color: aqua; */
     left: 0;
     width: 70vw;
-    height: 70vh;
+    height: 65vh;
     
     /* gap: 5rem; */
 }
@@ -104,11 +104,10 @@ margin-top: 0.25rem;
     color: white;
     padding: 0.25rem 0.75rem;
     }
-
-
 .firstPage{
     height: 100vh;
     position: relative;
+    border-color: aqua;
 }
 .lastPage{
     height: 100vh;
@@ -117,6 +116,66 @@ margin-top: 0.25rem;
     flex-direction: column;
     gap: 0;
     background-color: black;
+}
+.middlePage{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    justify-content: center; 
+    padding: 0;
+    margin: 0;
+    /* Center horizontally */
+align-items: center; 
+/* Center vertically */
+}
+.middlePageDiv1{
+    width: 30rem;
+    height: 2rem;
+    position: absolute;
+    top: 2rem; 
+   
+}
+.middlePageDiv2{
+    margin-top: 2rem; 
+    width: 80vw;
+height: 70vh;
+border-radius: 1.25rem;
+border: 2px solid rgba(0, 0, 0, 0.62);
+display: flex;
+flex-direction: row;
+}
+.middlePageDiv2Left{
+    margin: 2rem 1rem;
+    width: 34vw;
+    height: 60vh;
+}
+.middlePageDiv2right{
+    margin: 1.5rem 1rem;
+    width: 37vw;
+    height: 22rem;
+    border-color: aqua;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+.middlePageDiv2rightDiv1{
+    font-family: Montserrat;
+font-size: 2.20rem;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.middlePageDiv2rightDiv2{
+    font-family: Montserrat;
+font-size: 1rem;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: justified;
 }
 .lastPageDiv{
     margin: 0;
@@ -127,7 +186,7 @@ margin-top: 0.25rem;
     margin: 0;
     padding: 0;
     height: 95vh;
-    width: 100vw;
+    width: 100%;
 }
 .imageChange{
     margin-bottom: 2rem;
@@ -181,7 +240,7 @@ justify-content: center; /* Center horizontally */
 }
 .box1Img1{
 position: absolute;
-top: 4rem;
+top: 3rem;
 left: 3rem;
 }
 .box1 p,.box2 p{
