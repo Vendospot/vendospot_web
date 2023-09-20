@@ -252,7 +252,7 @@ line-height: normal;
     height: 100vh;
 } */
 
-@media (width<=426px) {
+@media (width<=520px) {
     /* *{
         border:2px solid red;
     } */
