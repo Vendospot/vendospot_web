@@ -107,7 +107,6 @@ margin-top: 0.25rem;
 .firstPage{
     height: 100vh;
     position: relative;
-    border-color: aqua;
 }
 .lastPage{
     height: 100vh;
@@ -155,7 +154,6 @@ flex-direction: row;
     margin: 1.5rem 1rem;
     width: 37vw;
     height: 22rem;
-    border-color: aqua;
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -177,24 +175,21 @@ line-height: 20px;
 letter-spacing: 0em;
 text-align: justified;
 }
-.lastPageDiv{
-    margin: 0;
-    padding: 0;
-    background-color: black;
-}
 .lastPageImg{
     margin: 0;
     padding: 0;
     height: 95vh;
     width: 100%;
 }
+.lastPageImg2{
+    visibility: hidden;
+}
 .imageChange{
     margin-bottom: 2rem;
 }
 .footer{
-    background-color: blue;
     width: 100%;
-height: 7vh;
+height: 8vh;
 flex-shrink: 0;
 background: #000;
 display: flex;
@@ -210,7 +205,7 @@ justify-content: center;
     font-size: 6rem;
     font-style: normal;
     font-weight: 400;
-    height: 2.7rem;
+    height: 2.5rem;
 }
 .box1{
     z-index: 15;
@@ -252,5 +247,219 @@ font-size: 1.2rem;
 font-style: italic;
 font-weight: 500;
 line-height: normal;
+}
+/* .lastPageDiv{
+    height: 100vh;
+} */
+
+@media (width<=426px) {
+    /* *{
+        border:2px solid red;
+    } */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+   .firstPage{
+    width: 100%;
+    height: 100%;
+   }
+   .middlePage{
+     width: 100%;
+     height: 200vh;
+     position: absolute;
+     top: 100%;
+   }
+   .lastPage{
+    position: absolute;
+    height: 180vh;
+    top: 300vh;
+   }
+
+   .middlePageDiv1{
+    width: 40vw;
+    height: 4vh;
+   }
+   .firstPageText1{
+    /* height: 50vh;
+    width: 50vw; */
+    font-size:2rem;
+    /* position: absolute;
+    top: 0.15rem; */
+   }
+   .firstPageText2{
+    /* height: 50vh;
+    width: 50vw; */
+    font-size:1.75rem;
+    /* position: absolute;
+    top: rem; */
+   }
+   .carousel1{
+    height: 75vh;
+    position: absolute;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+   }
+   .bar{
+    height: 10vh;
+   }
+   .carousel{
+    height: 90vh;
+   }
+   .Rectangle{
+    width: 55vw;
+height: 3.6875rem;
+flex-shrink: 0;
+border-radius: 0rem 12.3125rem 12.3125rem 0rem;
+background: #FFF;
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+position: absolute;
+bottom: 1rem;
+}
+.Rectangle2{
+    width: 45vw;
+height: 2.625rem;
+flex-shrink: 0;
+border-radius: 4.5rem;
+background: #F00;
+box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+z-index: 10;
+position: absolute;
+left: 1.25rem;
+
+}
+.Rectangle2Text{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 1.45rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+margin-top: 0.25rem;
+}
+.box1{
+    z-index: 15;
+    background-image: url(./Resources/Rectangle\ 98\ \(1\).png);
+    width: 90vw;
+height: 24.0625rem;
+flex-shrink: 0;
+position: absolute;
+left: 5vw;
+top: 4rem;
+display: flex;
+justify-content: center; 
+  align-items: center; 
+  border-radius: 20px;
+  background-image: url(./Resources/Rectangle\ 97.png);
+}
+.box2{
+    z-index: 15;
+    background-image: url(./Resources/Rectangle\ 98\ \(1\).png);
+    width: 90vw;
+    right: 5vw;
+height: 24.0625rem;
+flex-shrink: 0;
+    position: absolute;
+    bottom: 7.5rem;
+    display: flex;
+    border-radius: 20px;
+justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-image: url(./Resources/Rectangle\ 97.png);
+}
+.box1 p,.box2 p{
+    width: 65vw;
+    text-align: left;
+    color: #000;
+font-family: Montserrat;
+font-size: 1.2rem;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+}
+.box1Img1{
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    width: 30px;
+    }
+    .middlePageDiv2{
+        margin-top: 2rem; 
+        width: 80vw;
+    height: 180vh;
+    border-radius: 1.25rem;
+    border: 2px solid rgba(0, 0, 0, 0.62);
+    gap: 0.15px;
+    display: flex;
+    flex-direction: column;
+    }
+    .middlePageDiv2Left{
+        margin: 1rem 1rem;
+        width: 70vw;
+        height: 60vh;
+    }
+    .middlePageDiv2rightDiv1{
+        width: 70vw;
+        font-family: Montserrat;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+    .middlePageDiv2rightDiv2{
+        width: 70vw;
+        font-family: Montserrat;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+    /* .lastPage{
+        background-color: white;
+    } */
+    .lastPageImg{
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+        height: 95vh;
+        width: 100%;
+       
+    }
+    .lastPageDiv{
+        height: 200vh;
+      background-color: white;
+    }
+    .footer{
+        width: 100%;
+    height: 7vh;
+    flex-shrink: 0;
+    background: #000;
+    display: flex;
+    justify-content: center; 
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+    .lastPage{
+        background-color: white;
+    }
+    .footer{
+        width: 100vw;
+    height: 12vh;
+    flex-shrink: 0;
+    background: #000;
+    display: flex;
+    justify-content: center; 
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
 }
 
